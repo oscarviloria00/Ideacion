@@ -1,0 +1,62 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{listings}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+\usepackage{cite}
+
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}
+        \vspace*{1cm}
+            
+        \Huge
+        \textbf{Proyecto final}
+            
+        \vspace{0.5cm}
+        \LARGE
+        Ideación
+            
+        \vspace{1.5cm}
+            
+        \textbf{Oscar Luis Viloria Rodríguez}
+            
+        \vfill
+            
+        \vspace{0.8cm}
+            
+        \Large
+        Despartamento de Ingeniería Electrónica y Telecomunicaciones\\
+        Universidad de Antioquia\\
+        Medellín\\
+        Marzo de 2021
+            
+    \end{center}
+\end{titlepage}
+
+\tableofcontents
+\newpage
+\section{Sección introductoria}\label{intro}
+Este trabajo tiene por finalidad sentar las bases para la futura elaboración del proyecto final del curso. Es importante ir avanzando poco a poco ya que un buen proyecto requiere tiempo y planeación. Esta es la primera fase, que corresponde a idear lo que se quiere realizar en dicho proyecto. Lo presentado aquí puede estar sujeto a cambios dependiendo cómo trancurra el desarrollo del proyecto puede que se le agreguen o retiren funcionalidades).
+
+\section{Sección de contenido} \label{contenido}
+Lo que se pretende es desarrollar algo similar al conocido juego de tetris, en el cual van "cayendo" bloques con distintas formas, que deben ser ubicados de tal forma que se forme una línea completa de cuadros para que estas sean eliminadas. Así, la idea es no dejar que el escenario se llene completamente de piezas ya que el juego se da por terminado y el usuario pierde. \par
+
+Adicional a esto, en este proyecto se pretende aumentar la dificultad del juego añadiendo la colores. Ahora, para que las líneas de cuadros se eliminen, cada uno debe ser del mismo color. La dinámica es la misma que el juego original, no permitir que los cuadros lleguen hasta arriba del escenario porque así se pierde la partida.
+
+\section{Inclusión de imágenes} \label{imagenes}
+
+En la Figura (\ref{fig:tetris}), se presenta una imagen del juego original de tetris.
+
+\begin{figure}[h]
+\includegraphics[width=8cm]{tetris.jpg}
+\centering
+\caption{Imagen de tetris}
+\label{fig:tetris}
+\end{figure}
+
+Las secciones (\ref{intro}), (\ref{contenido}) y (\ref{imagenes}) dependen del estilo del documento.
+
+\end{document}
